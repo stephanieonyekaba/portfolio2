@@ -32,16 +32,26 @@ code {
     #ecf0f1
   );*/
 
-  background-size: 1200% 1200%;
-  -webkit-animation: BackgroundAnimation 70s ease infinite;
-  -moz-animation: BackgroundAnimation 70s ease infinite;
-  -o-animation: BackgroundAnimation 70s ease infinite;
-  animation: BackgroundAnimation 70s ease infinite;
+  background-size: 100% 100%;
+  // -webkit-animation: BackgroundAnimation 70s ease infinite;
+  // -moz-animation: BackgroundAnimation 70s ease infinite;
+  // -o-animation: BackgroundAnimation 70s ease infinite;
+  // animation: BackgroundAnimation 70s ease infinite;
   height: 100%;
 }
 
+
+
+
+
+
+
+
+
+
 .bg-gradient {
-  background: linear-gradient(rgba(245, 245, 245, 1), rgba(245, 245, 245, 0));
+  // background: linear-gradient(rgba(245, 245, 245, 1), rgba(245, 245, 245, 0));
+  // background: url(https://i.ibb.co/bs9BG7x/maria-orlova-b-U8-Te-Xhs-Pc-Y-unsplash.jpg) no-repeat;
 }
 
 .navbar-transparent {

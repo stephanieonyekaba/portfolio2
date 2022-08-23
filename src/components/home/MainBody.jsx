@@ -5,13 +5,18 @@ import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
+
+
+
+
     return (
       <Jumbotron
         fluid
         id="home"
         style={{
-          background: `linear-gradient(136deg,${gradient})`,
-          backgroundSize: "1200% 1200%",
+         //background: `linear-gradient(136deg,${gradient})`,
+          backgroundImage: `url(${"https://i.ibb.co/QjqN5Vb/pawel-czerwinski-y-I4-I3-Orp-B0-I-unsplash.jpg "})`,
+          backgroundSize: "100% 100%",
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
