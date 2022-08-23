@@ -37,6 +37,8 @@ $display-type-scale-base: minor-third;
   h1,
   .h1 {
     font-size: $font-size-h1;
+    
+
   }
   h2,
   .h2 {
@@ -52,7 +54,9 @@ $display-type-scale-base: minor-third;
   }
   h5,
   .h5 {
-    font-size: $font-size-h5;
+    // font-size: $font-size-h5;
+    font-size: 25px;
+    font-weight: bold;
   }
   h6,
   .h6 {
@@ -77,6 +81,7 @@ $display-type-scale-base: minor-third;
   }
   .display-1 {
     font-size: $font-size-display-1;
+    font-weight: 700;
   }
 }
 // Create the heading font sizes
