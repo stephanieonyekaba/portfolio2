@@ -53,7 +53,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
           {resume && (
             <p className="lead text-center">
               <a
-                className="btn btn-outline-dark btn-lg"
+                className="btn btn-outline-light btn-lg"
                 href={resume}
                 target="_blank"
                 rel="noreferrer noopener"

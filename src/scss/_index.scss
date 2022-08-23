@@ -14,6 +14,7 @@ body {
   //   sans-serif;
   font-family: BioRhyme, sans-serif;
     color: white;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -44,14 +45,7 @@ background-color: pink;
 
 
 
-// .navbar-transparent {
-//   background-color: rgba(255, 255, 255, 0);
-//   transition: background-color 0.2s;
-// }
-// .navbar-white {
-//   background-color: rgba(234, 236, 239, 0.81);
-//   transition: background-color 0.2s;
-// }
+
 
 .nav-item {
   transition: color, 0.2s;
@@ -116,6 +110,7 @@ background-color: pink;
   text-align: center;
 }
 
+
 .progress {
   transform-origin: left;
   & > * {
@@ -126,5 +121,6 @@ background-color: pink;
   @extend .progress;
   & > * {
     animation: progress 1.5s ease-in-out forwards;
+
   }
 }
