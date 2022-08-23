@@ -60,9 +60,11 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  gitHubUsername: "stephanieonyekaba", //i.e."johnDoe12Gh"
+  reposLength: 0,
+  specificRepos: [ "Game-Project-", "online-store", "state_capitals", "Mindful_Client"
+
+  ],
 };
 
 // Leadership SECTION
@@ -96,20 +98,17 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
+    { name: "Java", value: 40 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "React", value: 80 },
+    { name: "HTML/CSS", value: 90 },
+
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
+    { name: "Goal-Oriented", value: 95 },
+    { name: "Collaboration", value: 95 },
+    { name: "Adaptability", value: 90 },
     { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
   ],
@@ -118,10 +117,11 @@ const skills = {
 // GET IN TOUCH SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Let's Connect!",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I am currently looking for a full time position or internship in full-stack development. I am passionate, creative, and excited to join your team in making meaningful connections and contributions." ,
+  email:  "stephanie.u.onyekaba@gmail.com",
+
 };
 
 const experiences = {
